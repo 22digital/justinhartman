@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>enabled</key>
-			<true/>
+			<false/>
 			<key>name</key>
 			<string>Gmail</string>
 			<key>patterns</key>
@@ -15,19 +15,19 @@
 					<key>URLPattern</key>
 					<string>*gmail.com*</string>
 					<key>enabled</key>
-					<true/>
+					<false/>
 				</dict>
 				<dict>
 					<key>URLPattern</key>
 					<string>*mail.google.com*</string>
 					<key>enabled</key>
-					<true/>
+					<false/>
 				</dict>
 				<dict>
 					<key>URLPattern</key>
 					<string>*google.com*mail*</string>
 					<key>enabled</key>
-					<true/>
+					<false/>
 				</dict>
 			</array>
 			<key>source</key>
@@ -67,7 +67,7 @@ function updateDockBadge() {
 		</dict>
 		<dict>
 			<key>enabled</key>
-			<true/>
+			<false/>
 			<key>name</key>
 			<string>Facebook</string>
 			<key>patterns</key>
@@ -76,7 +76,7 @@ function updateDockBadge() {
 					<key>URLPattern</key>
 					<string>*facebook.com*</string>
 					<key>enabled</key>
-					<true/>
+					<false/>
 				</dict>
 			</array>
 			<key>source</key>
