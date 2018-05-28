@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>title</key>
-		<string>Default Fluid App</string>
+		<string>Default for @justinhartman</string>
 		<key>value</key>
 		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X %d_%d_%d) AppleWebKit/%@ (KHTML, like Gecko) %@ Version/%@ Safari/%@</string>
 	</dict>
