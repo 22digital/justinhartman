@@ -49,7 +49,7 @@
 	<key>FUNotificationsEnabled</key>
 	<true/>
 	<key>FUNumberOfBrowsaPlugIns</key>
-	<integer>2</integer>
+	<integer>0</integer>
 	<key>FUOpenLinksFromApplicationsIn</key>
 	<integer>1</integer>
 	<key>FUPageSizeMultiplier</key>
@@ -59,13 +59,13 @@
 	<key>FUPlugInMenuItemsVisible</key>
 	<false/>
 	<key>FUPlugInsEnabled</key>
-	<true/>
+	<false/>
 	<key>FURecentURLs</key>
 	<array/>
 	<key>FUSelectNewWindowsOrTabsAsCreated</key>
 	<false/>
 	<key>FUSelectPriorSelectedTabOnTabClose</key>
-	<true/>
+	<false/>
 	<key>FUSessionsEnabled</key>
 	<true/>
 	<key>FUShowDockBadgeLabels</key>
@@ -75,17 +75,17 @@
 	<key>FUSpacesBehavior</key>
 	<integer>0</integer>
 	<key>FUStatusBarShown</key>
-	<true/>
+	<false/>
 	<key>FUTabBarCellOptimumWidth</key>
 	<integer>175</integer>
 	<key>FUTabBarHiddenAlways</key>
-	<false/>
+	<true/>
 	<key>FUTabBarHiddenForSingleTab</key>
 	<true/>
 	<key>FUTabbedBrowsingEnabled</key>
-	<true/>
+	<false/>
 	<key>FUTargetedClicksCreateTabs</key>
-	<true/>
+	<false/>
 	<key>FUToolbarShown</key>
 	<false/>
 	<key>FUUseSeparateCookieJar</key>
@@ -112,7 +112,7 @@
 	<key>FUZoomTextOnly</key>
 	<false/>
 	<key>NSQuitAlwaysKeepsWindows</key>
-	<true/>
+	<false/>
 	<key>OKAutocompletionDelay</key>
 	<real>0.25</real>
 	<key>OKAutocompletionEnabled</key>
@@ -132,6 +132,6 @@
 	<key>WebIconDatabaseEnabled</key>
 	<true/>
 	<key>WebKitDeveloperExtras</key>
-	<true/>
+	<false/>
 </dict>
 </plist>
