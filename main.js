@@ -7,7 +7,11 @@ app.on('window-all-closed', function () {
 });
 
 app.on('ready', function () {
-    mainWindow = new BrowserWindow({ width: 1024, height: 768 });
+    // This creates a completely frameless window with no buttons.
+    // mainWindow = new BrowserWindow({ width: 1024, height: 768, frame: false });
+    // This hides the title bar.
+    // mainWindow = new BrowserWindow({ width: 1024, height: 768, titleBarStyle: 'hiddenInset' });
+    mainWindow = new BrowserWindow({ width: 1024, height: 768, transparent: false });
     mainWindow.loadURL('file://' + __dirname + '/browser.html');
     mainWindow.openDevTools();
 });

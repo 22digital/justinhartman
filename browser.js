@@ -5,37 +5,38 @@ onload = function () {
     var webview = document.querySelector('webview');
     doLayout();
 
-    document.querySelector('#back').onclick = function () {
-        webview.goBack();
-    };
+    // document.querySelector('#back').onclick = function () {
+    //     webview.goBack();
+    // };
 
-    document.querySelector('#forward').onclick = function () {
-        webview.goForward();
-    };
+    // document.querySelector('#forward').onclick = function () {
+    //     webview.goForward();
+    // };
 
-    document.querySelector('#home').onclick = function () {
-        navigateTo('http://www.github.com/');
-    };
+    // document.querySelector('#home').onclick = function () {
+    //     navigateTo('https://justin.hartman.me');
+    // };
 
-    document.querySelector('#reload').onclick = function () {
-        if (isLoading) {
-            webview.stop();
-        } else {
-            webview.reload();
-        }
-    };
-    document.querySelector('#reload').addEventListener(
-        'webkitAnimationIteration',
-        function () {
-            if (!isLoading) {
-                document.body.classList.remove('loading');
-            }
-        });
+    // document.querySelector('#reload').onclick = function () {
+    //     if (isLoading) {
+    //         webview.stop();
+    //     } else {
+    //         webview.reload();
+    //     }
+    // };
+    // document.querySelector('#reload').addEventListener(
+    //     'webkitAnimationIteration',
+    //     function () {
+    //         if (!isLoading) {
+    //             document.body.classList.remove('loading');
+    //         }
+    //     }
+    // );
 
-    document.querySelector('#location-form').onsubmit = function (e) {
-        e.preventDefault();
-        navigateTo(document.querySelector('#location').value);
-    };
+    // document.querySelector('#location-form').onsubmit = function (e) {
+    //     e.preventDefault();
+    //     navigateTo(document.querySelector('#location').value);
+    // };
 
     webview.addEventListener('close', handleExit);
     webview.addEventListener('did-start-loading', handleLoadStart);
@@ -135,10 +136,10 @@ onload = function () {
     } else {
         var zoom = document.querySelector('#zoom');
         var find = document.querySelector('#find');
-        zoom.style.visibility = "hidden";
-        zoom.style.position = "absolute";
-        find.style.visibility = "hidden";
-        find.style.position = "absolute";
+        // zoom.style.visibility = "hidden";
+        // zoom.style.position = "absolute";
+        // find.style.visibility = "hidden";
+        // find.style.position = "absolute";
     }
 };
 
@@ -244,9 +245,9 @@ function handleKeyDown(event) {
 function handleLoadCommit() {
     resetExitedState();
     var webview = document.querySelector('webview');
-    document.querySelector('#location').value = webview.getURL();
-    document.querySelector('#back').disabled = !webview.canGoBack();
-    document.querySelector('#forward').disabled = !webview.canGoForward();
+    // document.querySelector('#location').value = webview.getURL();
+    // document.querySelector('#back').disabled = !webview.canGoBack();
+    // document.querySelector('#forward').disabled = !webview.canGoForward();
     closeBoxes();
 }
 
@@ -327,7 +328,7 @@ function openZoomBox() {
 }
 
 function closeZoomBox() {
-    document.querySelector('#zoom-box').style.display = 'none';
+    // document.querySelector('#zoom-box').style.display = 'none';
 }
 
 function openFindBox() {
@@ -344,6 +345,6 @@ function closeFindBox() {
 }
 
 function closeBoxes() {
-    closeZoomBox();
-    closeFindBox();
+    // closeZoomBox();
+    // closeFindBox();
 }
