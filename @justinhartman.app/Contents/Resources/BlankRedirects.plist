@@ -4,9 +4,7 @@
 <dict>
 	<key>BlankRedirects</key>
 	<array>
-		<string>*facebook.com*/l.php*</string>
-		<string>*facebook.com*/r.php*</string>
-		<string>*plus*google.com*/url*</string>
+		<string>*justin.hartman.me*</string>
 	</array>
 </dict>
 </plist>
